@@ -18,9 +18,18 @@ public class TestController {
 // 这里是获取nacos里面的配置，详情看他的配置管理
     @Value("${message}")
     private String message;
+    @Value("${ext-one}")
+    private String one;
+    @Value("${ext-two}")
+    private String two;
 
     @GetMapping("/message")
     public String getMessage() {
         return this.message;
+    }
+
+    @GetMapping("/more")
+    public String getMore() {
+        return this.one+"-------"+this.two;
     }
 }
