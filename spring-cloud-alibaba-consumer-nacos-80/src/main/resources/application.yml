@@ -10,4 +10,4 @@ spring:
 
 #以下配置信息并不是默认配置，而是我们自定义的配置，目的是不在 Controller 内硬编码服务提供者的服务名
 service-url:
-  nacos-user-service: lb://springcloud-provider #服务提供者的服务名
+  nacos-user-service: http://localhost:8001   #服务提供者的服务名

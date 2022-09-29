@@ -7,7 +7,7 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * @Author: 雨同我
- * @Description:
+ * @Description:   开启负载均衡
  * @DateTime: 2022/9/29 11:48
  **/
 @Configuration
