@@ -1,0 +1,60 @@
+server:
+  port: 9221
+
+# spring配置
+spring:
+  application:
+    name: seata-product
+  datasource:
+    druid:
+      username: root
+      password: 123456789
+      url: jdbc:mysql://localhost:3306/seata_product?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        group: SEATA_GROUP
+
+# seata配置
+seata:
+  enabled: true
+  # Seata 应用编号，默认为 ${spring.application.name}
+  application-id: ${spring.application.name}
+  # Seata 事务组编号，用于 TC 集群名
+  tx-service-group: seata-ok-group
+  # 关闭自动代理
+#  enable-auto-data-source-proxy: false
+  # 服务配置项
+  service:
+    # 虚拟组和分组的映射
+    vgroup-mapping:
+      ruoyi-system-group: default
+    # 分组和 Seata 服务的映射
+    grouplist:
+      default: 127.0.0.1:8091
+  config:
+    type: nacos
+    nacos:
+      #namespace: c18b9158-bcf3-4d5a-b78b-f02bc8a19353
+      server-addr: localhost:8848
+      group: SEATA_GROUP
+      username: nacos
+      password: nacos
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server
+      group: SEATA_GROUP
+      #namespace: c18b9158-bcf3-4d5a-b78b-f02bc8a19353
+      server-addr: localhost:8848
+      username: nacos
+      password: nacos
+
+# mybatis配置
+mybatis:
+  # 搜索指定包别名
+  typeAliasesPackage: com.ezhang.product.mapper
+  # 配置mapper的扫描，找到所有的mapper.xml映射文件
+  mapperLocations: classpath:mapper/xml/*.xml

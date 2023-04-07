@@ -1,0 +1,27 @@
+server:
+  port: 9211
+
+# spring配置
+spring:
+  application:
+    name: seata-order
+  datasource:
+    druid:
+      username: root
+      password: 123456789
+      url: jdbc:mysql://localhost:3306/seata_order?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+
+
+# mybatis配置
+mybatis:
+  # 搜索指定包别名
+  typeAliasesPackage: com.ezhang.order.mapper
+  # 配置mapper的扫描，找到所有的mapper.xml映射文件
+  mapperLocations: classpath:mapper/**/*.xml
+
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000

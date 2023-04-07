@@ -1,0 +1,62 @@
+server:
+  port: 9201
+
+# spring配置
+spring:
+  application:
+    name: seata-account
+  datasource:
+    druid:
+      username: root
+      password: 123456789
+      url: jdbc:mysql://localhost:3306/seata_account?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        group: SEATA_GROUP
+
+# seata配置
+seata:
+  # 是否开启seata，默认true
+  enabled: true
+  # Seata 应用编号，默认为 ${spring.application.name}
+  application-id: ${spring.application.name}
+  # Seata 事务组编号，用于 TC 集群名, 一定要和 config.tx(nacos) 中配置的相同
+  tx-service-group: seata-ok-group
+  # 服务配置项
+  service:
+    # 虚拟组和分组的映射
+    vgroup-mapping:
+      ruoyi-system-group: default
+    # 分组和 Seata 服务的映射
+    grouplist:
+      default: 127.0.0.1:8091
+  config:
+    type: nacos
+    nacos:
+      # 需要 server 端(registry.config)中配置保持一致
+      #namespace: c18b9158-bcf3-4d5a-b78b-f02bc8a19353
+      server-addr: localhost:8848
+      group: SEATA_GROUP
+      username: nacos
+      password: nacos
+  registry:
+    type: nacos
+    nacos:
+      # 这里的名字一定要和 seata 服务端的名称相同，默认是 seata-server
+      application: seata-server
+      # 需要与 server 端(registry.config)中配置保持一致
+      group: SEATA_GROUP
+      #namespace: c18b9158-bcf3-4d5a-b78b-f02bc8a19353
+      server-addr: localhost:8848
+      username: nacos
+      password: nacos
+
+# mybatis配置
+mybatis:
+  # 搜索指定包别名
+  typeAliasesPackage: com.ezhang.account.mapper
+  # 配置mapper的扫描，找到所有的mapper.xml映射文件
+  mapperLocations: classpath:mapper/xml/*.xml
