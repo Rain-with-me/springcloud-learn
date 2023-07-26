@@ -1,0 +1,19 @@
+server:
+  port: 8081
+nacos:
+  discovery:
+    server-addr: 127.0.0.1:8848
+
+# Dubbo 广播方式配置
+dubbo:
+  application:
+    name: Lottery-Test
+    version: 1.0.0
+  registry:
+# (广播)   address: multicast://224.5.6.7:1234
+    address: nacos://127.0.0.1:8848
+  protocol:
+    name: dubbo
+    port: -1
+  consumer:
+    timeout: 30000

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d24e065-32b6-402e-978d-4cf768b9371b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-base/target/classes/com/sans/base/dto/ProviderTestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-base/target/classes/com/sans/base/dto/ProviderTestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-base/target/classes/com/sans/base/vo/ResultVO$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-base/target/classes/com/sans/base/vo/ResultVO$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-base/target/classes/com/sans/base/vo/ResultVO$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-base/target/classes/com/sans/base/vo/ResultVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-base/target/classes/com/sans/base/vo/ResultVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-consumer/target/classes/com/sans/consumer/ConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-consumer/target/classes/com/sans/consumer/ConsumerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-consumer/target/classes/com/sans/consumer/controller/ConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-consumer/target/classes/com/sans/consumer/controller/ConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-consumer/target/test-classes/com/sans/consumer/ConsumerApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-consumer/target/test-classes/com/sans/consumer/ConsumerApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-provider/target/classes/com/sans/provider/ProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-provider/target/classes/com/sans/provider/ProviderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-provider/target/classes/com/sans/provider/service/IProviderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-provider/target/classes/com/sans/provider/service/IProviderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-provider/target/classes/com/sans/provider/service/imp/ProviderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-provider/target/classes/com/sans/provider/service/imp/ProviderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-provider/target/test-classes/com/sans/provider/ProviderApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1-old-spring-boot-dubbo-demo/spring-boot-dubbo-provider/target/test-classes/com/sans/provider/ProviderApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3-cloud-seata-master/start.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../3-cloud-seata-master/start.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\apache-mavern-Repository" />
+        <option name="mavenHome" value="F:/apache-maven-3.8.1" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2T6SZuFrbTDNHxLE5OFUrjbG7fJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProviderApplication">
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-samples-spring-boot-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.apache.dubbo.springboot.demo.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-samples-spring-boot-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.apache.dubbo.springboot.demo.provider.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\HaHa\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d24e065-32b6-402e-978d-4cf768b9371b" name="Changes" comment="" />
+      <created>1690362097439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690362097439</updated>
+      <workItem from="1690362098997" duration="1868000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
